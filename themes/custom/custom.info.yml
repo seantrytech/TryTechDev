@@ -1,0 +1,10 @@
+name : custom
+description : 'custom v1'
+type: theme
+core: '8.x'
+libraries:
+ - custom/global-css
+stylesheets-remove:
+ - core/themes/stable/css/views/views.module.css
+ - core/themes/stable/css/system/components/align.module.css
+
