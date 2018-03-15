@@ -323,6 +323,7 @@ $settings['hash_salt'] = 'C04sRJQOxw6Bqe9Icr43nxOserdNVGDR3qPQmfbmQgxYnJB-04YOq-
 $settings['update_free_access'] = TRUE;
 
 /* test change
+/* test change
 
 /**
  * External access proxy settings:
