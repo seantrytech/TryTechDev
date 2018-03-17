@@ -1,4 +1,5 @@
-layout-sidebar {
-    padding-left: 250px;
+.sidebar {
     float: left;
+    position: relative;
+    width: 50%;
 }
