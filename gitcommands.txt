@@ -3,10 +3,11 @@ To push changes from c9 and server:
 Setup new terminal in "TryTechDev" folder
 
 git add . 
-git commit -m "First commit"
+git commit -m "your message"
 git push -u origin master
 
 To pull changes from github:
 
 git pull origin master
+
 
