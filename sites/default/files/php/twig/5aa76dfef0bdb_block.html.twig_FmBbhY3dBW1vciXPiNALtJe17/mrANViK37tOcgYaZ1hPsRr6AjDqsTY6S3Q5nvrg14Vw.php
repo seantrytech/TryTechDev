@@ -1,7 +1,7 @@
 <?php
 
-/* @block/block.html.twig */
-class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc922296b5df extends Twig_Template
+/* block.html.twig */
+class __TwigTemplate_e47724b3e70c0c53ec221fdc6e0e78a0ab9b471db9940170095e19129ec5f5d1 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -16,7 +16,7 @@ class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc92229
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $tags = array("if" => 32, "block" => 36);
+        $tags = array("if" => 30, "block" => 34);
         $filters = array();
         $functions = array();
 
@@ -40,18 +40,18 @@ class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc92229
             throw $e;
         }
 
-        // line 30
+        // line 28
         echo "<div";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["attributes"] ?? null), "html", null, true));
         echo ">
   ";
-        // line 31
+        // line 29
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["title_prefix"] ?? null), "html", null, true));
         echo "
   ";
-        // line 32
+        // line 30
         if (($context["label"] ?? null)) {
-            // line 33
+            // line 31
             echo "    <h2";
             echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["title_attributes"] ?? null), "html", null, true));
             echo ">";
@@ -59,22 +59,22 @@ class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc92229
             echo "</h2>
   ";
         }
-        // line 35
+        // line 33
         echo "  ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["title_suffix"] ?? null), "html", null, true));
         echo "
   ";
-        // line 36
+        // line 34
         $this->displayBlock('content', $context, $blocks);
-        // line 39
+        // line 37
         echo "</div>
 ";
     }
 
-    // line 36
+    // line 34
     public function block_content($context, array $blocks = array())
     {
-        // line 37
+        // line 35
         echo "    ";
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["content"] ?? null), "html", null, true));
         echo "
@@ -83,7 +83,7 @@ class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc92229
 
     public function getTemplateName()
     {
-        return "@block/block.html.twig";
+        return "block.html.twig";
     }
 
     public function isTraitable()
@@ -93,7 +93,7 @@ class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc92229
 
     public function getDebugInfo()
     {
-        return array (  78 => 37,  75 => 36,  70 => 39,  68 => 36,  63 => 35,  55 => 33,  53 => 32,  49 => 31,  44 => 30,);
+        return array (  78 => 35,  75 => 34,  70 => 37,  68 => 34,  63 => 33,  55 => 31,  53 => 30,  49 => 29,  44 => 28,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -106,6 +106,6 @@ class __TwigTemplate_154e81599978adb20b11b1773903a6e6e73aa850eef10b6c00a7cc92229
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "@block/block.html.twig", "/home/trytechc/public_html/core/modules/block/templates/block.html.twig");
+        return new Twig_Source("", "block.html.twig", "core/themes/stable/templates/block/block.html.twig");
     }
 }
