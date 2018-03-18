@@ -11,5 +11,5 @@ stylesheets-remove:
 regions:
  content: 'Main  Content'
  header: 'Header'
- footer: 'Footer'
  sidebar: 'Sidebar'
+ footer: 'Footer'
